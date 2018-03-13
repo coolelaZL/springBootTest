@@ -1,8 +1,12 @@
 package com.example.demo.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable {
+
+    private static final long serialVersionUID = -2445317255148777191L;
+
     private Integer id;
 
     private String username;
