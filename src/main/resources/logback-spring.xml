@@ -15,6 +15,7 @@
             </encoder>
         </appender>
         <logger name="com.light.springboot" level="debug" />
+        <logger name="org.springframework.jdbc.core.JdbcTemplate" level="debug"/>
         <root level="info">
             <appender-ref ref="CONSOLE" />
         </root>
@@ -57,4 +58,5 @@
             <appender-ref ref="PROD_FILE" />
         </root>
     </springProfile>
+
 </configuration>
